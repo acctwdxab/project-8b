@@ -10,7 +10,7 @@ def words_in_both(s1, s2):
  for words in common_one:
     if (words in common_two) and (words not in result):
         result.append(words)
- return result
+ return set(result)
 
 
 
